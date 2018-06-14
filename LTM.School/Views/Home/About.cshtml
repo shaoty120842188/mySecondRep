@@ -1,0 +1,69 @@
+﻿@using LTM.School.ViewModels
+@model List<LTM.School.ViewModels.EnrollmentDateGroup>
+@{
+    ViewData["Title"] = "关于我们";
+}
+
+
+<h2>学生信息统计</h2>
+<table class="table">
+    <tr>
+        <th>注册时间</th>
+        <th>学生人数</th>
+    </tr>
+    
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(a=>item.EnrollmenDate)</td>
+
+            <td>@Html.DisplayFor(a => item.StudentCount)</td>
+
+        </tr>
+    }
+   
+
+</table>
+
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+
+<p>我叫梁桐铭， 微软最有价值专家(MVP)。
+    从事.NET开发5年有余，业余爱好看点书、玩点单机游戏。微软粉。从2015年5月开始在国内的开源社区中进行推广ASP.NETBoilerplate Project开源框架，创建了”角落的白板报”博客，发表一些基础性文章来帮助大家提高开发技巧!制作了代码生成器(ABP Code Generator)，辅助与ABP框架以提高开发人员的效率。
+    目前就职于成都积微物联电子商务有限公司--积微循环项目经理，从事B2B电商开发工作。
+    
+    
+    <h3>视频观看地址：</h3>
+    <ul>
+        <li> <a tabindex="_parent" href="http://52abp.ke.qq.com/">腾讯课堂</a> </li>
+
+        <li> <a tabindex="_parent" href="http://study.163.com/provider/400000000309007/index.htm">网易云课堂</a> </li>
+    </ul>
+
+    网上地址：
+
+    <ul>
+        
+        <li><a target="_parent" href="http://www.cnblogs.com/wer-ltm/">博客园_角落的白板报</a> </li>
+        <li><a target="_parent" href="https://github.com/ltm0203">GitHub地址</a> </li>
+        <li><a target="_parent" href="http://www.52abp.com">  个人网站</a> </li>
+    </ul>
+    <h3>    QQ群加入我们</h3>
+    <address>
+        <div>
+            <strong>52ABP .NET CORE 实战群:</strong><a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5Qprggi">
+                <img src="http://pub.idqqimg.com/wpa/images/group.png" alt="52ABP .NET CORE 实战群" title="52ABP .NET CORE 实战群">
+            </a> 
+        </div>
+     
+        <div>
+            <strong>ABP代码生成器交流群（收费）:</strong><a target="_blank" href="https://jq.qq.com/?_wv=1027&k=5MxVaIt">
+                <img src="http://pub.idqqimg.com/wpa/images/group.png" alt="ABP代码生成器交流群" title="ABP代码生成器交流群">
+            </a>
+        </div>
+    </address>
+    
+   
+  </p>

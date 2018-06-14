@@ -1,0 +1,33 @@
+﻿@model LTM.School.Core.Models.Student
+
+@{
+    ViewData["Title"] = "删除";
+}
+
+<h2>删除</h2>
+<p class="text-danger">@ViewBag.SaveError </p>
+<h3>是否确定删除该条学生信息？</h3>
+<div>
+    <h4>学生信息</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RealName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RealName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EnrollmentDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EnrollmentDate)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="删除" class="btn btn-default" /> |
+        <a asp-action="Index">返回列表</a>
+    </form>
+</div>
