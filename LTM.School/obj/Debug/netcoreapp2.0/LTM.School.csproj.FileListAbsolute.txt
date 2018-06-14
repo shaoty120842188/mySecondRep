@@ -1,0 +1,11 @@
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\bin\Debug\netcoreapp2.0\LTM.School.deps.json
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\bin\Debug\netcoreapp2.0\LTM.School.runtimeconfig.json
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\bin\Debug\netcoreapp2.0\LTM.School.runtimeconfig.dev.json
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\bin\Debug\netcoreapp2.0\LTM.School.dll
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\bin\Debug\netcoreapp2.0\LTM.School.pdb
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\obj\Debug\netcoreapp2.0\LTM.School.csproj.CoreCompileInputs.cache
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\obj\Debug\netcoreapp2.0\LTM.School.AssemblyInfoInputs.cache
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\obj\Debug\netcoreapp2.0\LTM.School.AssemblyInfo.cs
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\obj\Debug\netcoreapp2.0\LTM.School.dll
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\obj\Debug\netcoreapp2.0\LTM.School.pdb
+C:\DotNet_Material\52ABP.School-master\52ABP.School-master\LTM.School\obj\Debug\netcoreapp2.0\LTM.School.csprojAssemblyReference.cache
